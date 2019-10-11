@@ -8,6 +8,10 @@ final class kata_swift_startTests: XCTestCase {
         // results.
         XCTAssertEqual(kata_swift_start().text, "Hello, World!")
     }
+    
+    func testFailingExample() {
+        XCTAssertEqual(kata_swift_start().text, "Helo, World!")
+    }
 
     static var allTests = [
         ("testExample", testExample),
